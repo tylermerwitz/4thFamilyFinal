@@ -34,17 +34,27 @@ p {
 
 }
 
+header {
+	float:left;
+	position:fixed;
+	background-color:white;
+}
+
 #fourth-family {
     width: 25%;
 }
 
 .icons {
-    width: 25%;
-    display: inline;
+    width: 100%;
+    display: block;
+	float:right;
 }
 
 .icons li {
-    display: inline;
+    display: block;
+	float:left;
+	padding-left:10px;
+	
 }
 
 
@@ -55,23 +65,17 @@ p {
 .fa-youtube-square {}
 
 .social_media {
-	display:inline-block;
+	display:block;
     float: right;
     position: relative;
-    height: 15px;
-    padding-right: 35px;
-	padding-top: 20px;
+	margin-right:20px;
+	padding-top:50px;
 }
 
-.icons li {
-    display: inline;
-    padding-left: 10px;
-}
 
 a.donate {
     border: 1px solid #ffcc00;
     cursor: pointer;
-    //min-width: 75px;
     text-align: center;
     font-weight: bold;
     font-size: 16px;
@@ -81,6 +85,7 @@ a.donate {
     color: #003087;
     border-radius: 5px;
 	font-family: 'Open Sans', sans-serif;
+	display:block;
 
 }
 
@@ -170,10 +175,11 @@ header {
 
 .banner img {
   width: 100%;
+  float: left;
+  margin-top:100px;
 }
 
 .welcomeBox {
-  height: 300px;
   width: 100%;
   position: inherit;
   font-style: sans-serif;
@@ -196,7 +202,6 @@ h3 {
 
 .stemBox {
   float: left;
-  height: 420px;
   width: 50%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bc6814+0,e28340+50,e28340+55,bc6814+100 */
   background: #bc6814; /* Old browsers */
@@ -207,7 +212,6 @@ h3 {
 }
 .mentoringBox {
     float: right;
-    height: 420px;
     width: 50%;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb9737+0,fbbc5d+45,fbbc5d+55,cb9737+100 */
     background: #cb9737; /* Old browsers */
@@ -220,7 +224,6 @@ h3 {
 
 .sponsorsBox {
   float: right;
-  height: 300px;
   width: 100%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b8133+0,77a13d+45,77a13d+50,77a13d+50,77a13d+55,3b8133+100 */
   background: #3b8133; /* Old browsers */
@@ -232,14 +235,12 @@ h3 {
 }
 .footerBox {
   float: right;
-  height: 80px;
   width: 100%;
   background: black;
   color: white;
 }
 .whiteBox {
   float: right;
-  height: 80px;
   width: 100%;
   background: white;
 }
@@ -258,36 +259,6 @@ h3 {
 
 }
 
-/*
-.icons {
-    width: 20%;
-    padding-top: 90px;
-    padding-left: 120px;
-    display: inline;
-}
-
-.icons li {
-    display: inline;
-}
-
-.fa-facebook-square {
-    color: @fa-facebook-square: @fa-facebook;
-}
-.fa-instagram {}
-.fa-twitter-square{}
-.fa-linkedin-square{}
-.fa-youtube-square {}
-
-/*
-.donate {
-    width: 20%;
-    padding-top: 65px;
-    padding-right: 70px;
-    padding-bottom: 10px;
-    font-size: 20px;
-
-}
-*/
 
 .button {
     padding-top: 100px;
@@ -306,18 +277,7 @@ a.button{
 	display: inline-block;
 	border-radius: 5px;
 }
-/*
-.navbar {
-    width: 100%;
-    text-align: center;
-    background-image: url('../group_picturev1.jpg');
-    background-size: cover;
-    padding-left: ;
-    margin: 0px;
-    padding: 0px;
 
-}
-*/
 
 .navbar nav ul {
     width: 100%;
@@ -369,14 +329,6 @@ a.button{
     background-color: black;
 }
 
-/*.welcome {
-    float: left;
-    width: 100%;
-    height: 448px;
-    background-image: url('../group_picturev1.jpg');
-    background-size: cover;
-
-}*/
 
 .welcome-text {
     color: black;
@@ -482,7 +434,6 @@ a.videos-button{
 
 .organizers {
     float: left;
-    height: 450px;
     width: 100%;
     border: solid;
     border-width: 2px;
@@ -491,7 +442,6 @@ a.videos-button{
 
 .sponsors {
     float: left;
-    height: 450px;
     width: 100%;
     border: solid;
     border-width: 2px;
@@ -533,10 +483,6 @@ a.videos-button{
 
 }
 
-.organizers {
-    padding-left: 17.5%;
-
-}
 
 #title_org {
     width: 100%;
@@ -590,4 +536,8 @@ a.videos-button{
     height: 150px;
     width: 150px;
 }
->>>>>>> 75dd3480cb9751ec8a608775c52cc580b475be62
+
+
+.sponsors img{
+	width: 300px;
+}
