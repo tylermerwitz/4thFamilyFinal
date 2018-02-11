@@ -37,6 +37,11 @@ p {
 header {
 	float:left;
 	position:fixed;
+	z-index: 10000;
+	
+}
+
+.mast {
 	background-color:white;
 }
 
@@ -108,6 +113,8 @@ header {
 
 .logo img{
 	height: 100px;
+	z-index: 1;
+	position:relative;
 }
 
 .navbar {
@@ -115,6 +122,7 @@ header {
     background-color: #333;
     font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	opacity: .9;
 }
 
 .navbar a {
@@ -372,14 +380,12 @@ a.button{
     background-color: #E19352;
     float: right;
     width: 50%;
-    height: 450px;
 
 }
 
 .gallery {
     float: left;
     width: 100%;
-    height: 550px;
     background-color: limegreen;
 }
 
@@ -404,7 +410,7 @@ a.button{
     transition: 1s;
 }
 
-.gallery img:hoover {
+.gallery img:hover {
 
 
 }
