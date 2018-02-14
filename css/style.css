@@ -504,14 +504,14 @@ a.videos-button{
 }
 
 .sponsors {
-	display: table;
+	display: inline-flex;
 	margin: auto;
 	//border: 1px solid green;
-	width: 90%;
+	width: 100%;
 }
 
 .partner {
-	display: inline-block;
+	//display: inline-block;
 	max-width: 800px;
 	margin:auto;
 	width:33%;
@@ -519,10 +519,11 @@ a.videos-button{
 
 #partner_logo {
      text-align: center;
-     vertical-align: middle;
+     //vertical-align: middle;
      max-width: 300px;
 	 width: 90%;
 	 margin:auto;
+	 display:block;
 
 }
 
