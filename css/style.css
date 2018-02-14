@@ -24,10 +24,6 @@ p {
 }
 
 
-.page-header {
-
-}
-
 .header-row {
     display: flex;
     flex-direction: row;
@@ -45,9 +41,6 @@ header {
 	background-color:white;
 }
 
-#fourth-family {
-    width: 25%;
-}
 
 .icons {
     width: 100%;
@@ -200,10 +193,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c8092', end
 ;
 }
 
-h1 {
-    font-size: 36px;
-}
-
 h3 {
   font-size: 18px;
 }
@@ -230,7 +219,7 @@ h3 {
 ;
 }
 
-.sponsorsBox {
+.photosBox {
   float: right;
   width: 100%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b8133+0,77a13d+45,77a13d+50,77a13d+50,77a13d+55,3b8133+100 */
@@ -247,15 +236,7 @@ h3 {
   background: black;
   color: white;
 }
-.whiteBox {
-  float: right;
-  width: 100%;
-  background: white;
-}
-=======
-* {
-  box-sizing: border-box;
-}
+
 
 .page-header {
 
@@ -345,16 +326,6 @@ a.button{
     border-style: solid;
 }
 
-.welcome-text p {
-
-}
-.welcome-text h1 > p {
-
-}
-
-.welcome-text h3 > p {
-
-}
 
 .STEM-programs {
     background-color: #E16F10;
@@ -384,9 +355,8 @@ a.button{
 }
 
 .gallery {
-    float: left;
-    width: 100%;
-    background-color: limegreen;
+   width: 100%;
+   float:left;
 }
 
 .gallery h1 {
@@ -397,17 +367,19 @@ a.button{
 
 }
 
-.sub-gallery {
-    width: auto;
+
+.thumbnail {
+	width: 20%;
+	display:inline-block;
+	float:left;
 }
 
 .gallery img {
-    float: left;
+    margin:auto;
     display: block;
-    width: 300px;
-    height: 175px;
-    padding: 0px;
-    transition: 1s;
+    max-width: 200px;
+	transition: 1s;
+	width:90%;
 }
 
 .gallery img:hover {
@@ -438,6 +410,7 @@ a.videos-button{
     opacity: .9;
 }
 
+/*
 .organizers {
     float: left;
     width: 100%;
@@ -452,7 +425,7 @@ a.videos-button{
     border: solid;
     border-width: 2px;
     border-color: orange;
-}
+}*/
 
 .button_submit {
     float: left;
@@ -489,6 +462,21 @@ a.videos-button{
 
 }
 
+.organizers {
+    width: 100%;
+	float:left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.community {
+    width: 100%;
+	float:left;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f1f1f1;
+	
+}
+
 
 #title_org {
     width: 100%;
@@ -496,54 +484,47 @@ a.videos-button{
 }
 
 
-.john_scott {
-    float: left;
-    width: 15%;
-
-}
-#john_scott_profile {
-    height: 150px;
-    width: 150px;
+.person {
+    width: 20%;
+	display:inline-block;
+	float:left;
+	//border: 1px solid red;
 }
 
-.jahkeen_hoke {
-    float: left;
-    width: 15%;
+.person p{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 }
 
-#jahkeen_hoke_profile {
-    height: 150px;
-    width: 150px;
+#person_profile {
+    max-width: 150px;
+	width: 90%;
+	display: block;
+	margin:auto;
 }
 
-.john_drazan {
-    float: left;
-    width: 15%;
-}
-#John_drazan_profile {
-    height: 150px;
-    width: 150px;
+.sponsors {
+	display: table;
+	margin: auto;
+	//border: 1px solid green;
+	width: 90%;
 }
 
-.ana_shaello {
-    float: left;
-    width: 15%;
-}
-#ana_shaello_profile {
-    height: 150px;
-    width: 150px;
+.partner {
+	display: inline-block;
+	max-width: 800px;
+	margin:auto;
+	width:33%;
 }
 
-.laquana_cooke {
-    float: left;
-    width: 15%;
-}
-#laquana_cooke_profile {
-    height: 150px;
-    width: 150px;
+#partner_logo {
+     text-align: center;
+     vertical-align: middle;
+     max-width: 300px;
+	 width: 90%;
+	 margin:auto;
+
 }
 
 
-.sponsors img{
-	width: 300px;
-}
+
