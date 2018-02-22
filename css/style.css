@@ -12,14 +12,12 @@ font-family: 'Open Sans Condensed', sans-serif;
   width: auto;
   margin: 0px;
   padding: 0px;
+ font-family: 'Open Sans', sans-serif;
 
 }
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  size: 36px;
-}
+
 p {
-    font-family: 'Open Sans', sans-serif;
+  
     size: 22px;
 }
 
@@ -174,6 +172,7 @@ header {
     display: block;
 }
 
+
 .banner img {
   width: 100%;
   float: left;
@@ -182,7 +181,7 @@ header {
 
 .welcomeBox {
   width: 100%;
-  position: inherit;
+  float:left;
   font-style: sans-serif;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c8092+0,59aac7+40,59aac7+50,59aac7+60,1c8092+100 */
 background: #1c8092; /* Old browsers */
@@ -190,8 +189,23 @@ background: -moz-linear-gradient(top,  #1c8092 0%, #59aac7 40%, #59aac7 50%, #59
 background: -webkit-linear-gradient(top,  #1c8092 0%,#59aac7 40%,#59aac7 50%,#59aac7 60%,#1c8092 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #1c8092 0%,#59aac7 40%,#59aac7 50%,#59aac7 60%,#1c8092 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c8092', endColorstr='#1c8092',GradientType=0 ); /* IE6-9 */
-;
+;*/
 }
+
+
+.welcomeBox h1 {
+	padding-top: 25px;
+	font-size: 42px;
+	text-align:center;
+}
+
+.welcomeBox p {
+	font-size: 22px;
+	padding:15px 15px 30px 15px;
+	text-align:center;
+	max-width: 70%;
+}
+	
 
 h3 {
   font-size: 18px;
@@ -207,6 +221,17 @@ h3 {
   background: linear-gradient(to bottom,  #bc6814 0%,#e28340 50%,#e28340 55%,#bc6814 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc6814', endColorstr='#bc6814',GradientType=0 ); /* IE6-9 */
 }
+
+.stemBox p{
+	padding:15px 15px 30px 15px;
+}
+
+.stemBox h1 {
+	padding-left: 15px;
+	padding-top: 25px;
+
+}
+
 .mentoringBox {
     float: right;
     width: 50%;
@@ -217,6 +242,16 @@ h3 {
     background: linear-gradient(to bottom,  #cb9737 0%,#fbbc5d 45%,#fbbc5d 55%,#cb9737 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb9737', endColorstr='#cb9737',GradientType=0 ); /* IE6-9 */
 ;
+}
+
+.mentoringBox p{
+	padding:15px 15px 30px 15px;
+}
+
+.mentoringBox h1 {
+	padding-left: 15px;
+	padding-top: 25px;
+
 }
 
 .photosBox {
@@ -230,14 +265,8 @@ h3 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b8133', endColorstr='#3b8133',GradientType=0 ); /* IE6-9 */
 ;
 }
-.footerBox {
-  float: right;
-  width: 100%;
-  background: black;
-  color: white;
-}
 
-
+/* to delete
 .page-header {
 
 }
@@ -317,7 +346,7 @@ a.button{
     color: white;
     background-color: black;
 }
-
+*/
 
 .welcome-text {
     color: black;
@@ -353,6 +382,19 @@ a.button{
     width: 50%;
 
 }
+
+.media {
+	position:relative;
+	width: 100%;
+}
+
+.media img {
+  width: 100%;
+  //position: relative;
+  float: left;
+  //margin-top:100px;
+}
+
 
 .gallery {
    width: 100%;
@@ -449,6 +491,7 @@ a.videos-button{
 	border-radius: 5px;
 }
 
+/*
 .getinvolved {
     float: left;
     width: 50%;
@@ -461,13 +504,7 @@ a.videos-button{
     height: 450px;
 
 }
-
-.organizers {
-    width: 100%;
-	float:left;
-	font-family: 'Open Sans', sans-serif;
-}
-
+*/
 
 .community {
     width: 100%;
@@ -475,6 +512,18 @@ a.videos-button{
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f1f1f1;
 	
+}
+
+.organizers {
+	padding: 15px;
+    width: 100%;
+	float:left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.organizers h1 {
+	padding:15px;
+	font-size: 42px;
 }
 
 
@@ -488,7 +537,7 @@ a.videos-button{
     width: 20%;
 	display:inline-block;
 	float:left;
-	//border: 1px solid red;
+	padding-bottom: 30px;
 }
 
 .person p{
@@ -503,11 +552,19 @@ a.videos-button{
 	margin:auto;
 }
 
+.community h1 {
+	padding-top: 25px;
+	font-size: 42px;
+	text-align:center;
+}
+
 .sponsors {
-	display: inline-flex;
+	padding-top: 25px;
+	display: flex;
 	margin: auto;
 	//border: 1px solid green;
 	width: 100%;
+	max-width:900px;
 }
 
 .partner {
@@ -515,6 +572,7 @@ a.videos-button{
 	max-width: 800px;
 	margin:auto;
 	width:33%;
+	padding-left:15px;
 }
 
 #partner_logo {
@@ -527,5 +585,11 @@ a.videos-button{
 
 }
 
+.footerBox {
+  float: right;
+  width: 100%;
+  background: black;
+  color: white;
+}
 
 
