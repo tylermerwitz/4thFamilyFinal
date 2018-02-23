@@ -12,15 +12,17 @@ font-family: 'Open Sans Condensed', sans-serif;
   width: auto;
   margin: 0px;
   padding: 0px;
- font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
 
+h1{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 p {
-  
-    size: 22px;
+  font-family: 'Open Sans', sans-serif;
+  size: 22px;
 }
-
 
 .header-row {
     display: flex;
@@ -32,7 +34,7 @@ header {
 	float:left;
 	position:fixed;
 	z-index: 10000;
-	
+
 }
 
 .mast {
@@ -43,14 +45,14 @@ header {
 .icons {
     width: 100%;
     display: block;
-	float:right;
+	  float:right;
 }
 
 .icons li {
-    display: block;
+  display: block;
 	float:left;
 	padding-left:10px;
-	
+
 }
 
 
@@ -62,9 +64,9 @@ header {
 
 .social_media {
 	display:block;
-    float: right;
-    position: relative;
-	margin-right:20px;
+  float: right;
+  position: relative;
+	margin-right:40px;
 	padding-top:50px;
 }
 
@@ -77,11 +79,11 @@ a.donate {
     font-size: 16px;
     background-color: #ffcc00;
     text-decoration: none;
-    padding:5px 20px;
-    color: #003087;
+    padding:3px 25px;
+    color: #000;
     border-radius: 5px;
-	font-family: 'Open Sans', sans-serif;
-	display:block;
+	  font-family: 'Open Sans', sans-serif;
+	  display:block;
 
 }
 
@@ -97,7 +99,7 @@ header {
 .logo {
   top: 0px;
   left: 0px;
-  padding-left: 15px;
+  padding-left: 35px;
   padding-top: 15px;
   height: 105px;
 }
@@ -132,7 +134,7 @@ header {
 }
 
 .dropdown .dropbtn {
-    font-size: 18px;    
+    font-size: 18px;
     border: none;
     outline: none;
     color: white;
@@ -179,10 +181,25 @@ header {
   margin-top:100px;
 }
 
+/*
+.welcomeBox span{
+  display:inline-block;
+  font-size: 125px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  opacity: .08;
+  float: left;
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+*/
+
 .welcomeBox {
   width: 100%;
   float:left;
-  font-style: sans-serif;
+  height: 260px;
+  position: inherit;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c8092+0,59aac7+40,59aac7+50,59aac7+60,1c8092+100 */
 background: #1c8092; /* Old browsers */
 background: -moz-linear-gradient(top,  #1c8092 0%, #59aac7 40%, #59aac7 50%, #59aac7 60%, #1c8092 100%); /* FF3.6-15 */
@@ -192,20 +209,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c8092', end
 ;*/
 }
 
-
 .welcomeBox h1 {
-	padding-top: 25px;
+	padding-top: 50px;
 	font-size: 42px;
 	text-align:center;
 }
 
 .welcomeBox p {
 	font-size: 22px;
-	padding:15px 15px 30px 15px;
+	padding:15px 15px 15px 15px;
 	text-align:center;
-	max-width: 70%;
+	max-width: 60%;
 }
-	
 
 h3 {
   font-size: 18px;
@@ -214,6 +229,7 @@ h3 {
 .stemBox {
   float: left;
   width: 50%;
+  height: 360px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bc6814+0,e28340+50,e28340+55,bc6814+100 */
   background: #bc6814; /* Old browsers */
   background: -moz-linear-gradient(top,  #bc6814 0%, #e28340 50%, #e28340 55%, #bc6814 100%); /* FF3.6-15 */
@@ -224,17 +240,19 @@ h3 {
 
 .stemBox p{
 	padding:15px 15px 30px 15px;
+  width: 85%;
 }
 
 .stemBox h1 {
 	padding-left: 15px;
-	padding-top: 25px;
-
+	padding-top: 75px;
+  width: 85%;
 }
 
 .mentoringBox {
     float: right;
     width: 50%;
+    height: 360px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb9737+0,fbbc5d+45,fbbc5d+55,cb9737+100 */
     background: #cb9737; /* Old browsers */
     background: -moz-linear-gradient(top,  #cb9737 0%, #fbbc5d 45%, #fbbc5d 55%, #cb9737 100%); /* FF3.6-15 */
@@ -243,15 +261,15 @@ h3 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb9737', endColorstr='#cb9737',GradientType=0 ); /* IE6-9 */
 ;
 }
+.mentoringBox h1 {
+	padding-left: 15px;
+	padding-top: 70px;
+  width: 85%;
+}
 
 .mentoringBox p{
 	padding:15px 15px 30px 15px;
-}
-
-.mentoringBox h1 {
-	padding-left: 15px;
-	padding-top: 25px;
-
+  width: 85%;
 }
 
 .photosBox {
@@ -481,12 +499,12 @@ a.videos-button{
 	cursor: pointer;
 	min-width: 75px;
 	text-align: center;
-    font-size: 28px;
+  font-size: 28px;
 	font-weight: bold;
 	background-color: orange;
 	text-decoration: none;
 	color: #fff;
-    padding: 5px 20px;
+  padding: 5px 20px;
 	display: inline-block;
 	border-radius: 5px;
 }
@@ -507,16 +525,16 @@ a.videos-button{
 */
 
 .community {
-    width: 100%;
+  width: 100%;
 	float:left;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f1f1f1;
-	
+
 }
 
 .organizers {
 	padding: 15px;
-    width: 100%;
+  width: 100%;
 	float:left;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -560,6 +578,7 @@ a.videos-button{
 
 .sponsors {
 	padding-top: 25px;
+  padding-bottom: 45px;
 	display: flex;
 	margin: auto;
 	//border: 1px solid green;
@@ -572,24 +591,25 @@ a.videos-button{
 	max-width: 800px;
 	margin:auto;
 	width:33%;
-	padding-left:15px;
+	padding-left:10px;
 }
 
 #partner_logo {
-     text-align: center;
-     //vertical-align: middle;
-     max-width: 300px;
-	 width: 90%;
-	 margin:auto;
-	 display:block;
+  text-align: center;
+  vertical-align: middle;
+  max-width: 300px;
+	width: 90%;
+	margin:auto;
+	display:block;
 
 }
 
 .footerBox {
+  height: 40px;
   float: right;
   width: 100%;
   background: black;
   color: white;
+  padding-top: 15px
+
 }
-
-
