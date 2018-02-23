@@ -1,0 +1,240 @@
+/* mission styles*/
+
+
+* {
+  box-sizing: border-box;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+
+}
+h1 {
+  size: 36px;
+}
+p {
+    size: 22px;
+}
+
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+header {
+	float:left;
+	position:fixed;
+	z-index: 10000;
+	
+}
+
+.mast {
+	background-color:white;
+}
+
+
+.icons {
+    width: 100%;
+    display: block;
+	float:right;
+}
+
+.icons li {
+    display: block;
+	float:left;
+	padding-left:10px;
+	
+}
+
+
+.fa-facebook-square {}
+.fa-instagram {}
+.fa-twitter-square{}
+.fa-linkedin-square{}
+.fa-youtube-square {}
+
+.social_media {
+	display:block;
+    float: right;
+    position: relative;
+	margin-right:20px;
+	padding-top:50px;
+}
+
+
+a.donate {
+    border: 1px solid #ffcc00;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #ffcc00;
+    text-decoration: none;
+    padding:5px 20px;
+    color: #003087;
+    border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	display:block;
+
+}
+
+/* nav */
+
+*{
+  margin: auto;
+}
+
+header {
+	width: 100%;
+}
+.logo {
+  top: 0px;
+  left: 0px;
+  padding-left: 15px;
+  padding-top: 15px;
+  height: 105px;
+}
+
+.logo img{
+	height: 100px;
+	z-index: 1;
+	position:relative;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	opacity: .9;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    //float: left;
+    //overflow: hidden;
+	display:inline-block;
+}
+
+.dropdown .dropbtn {
+    font-size: 18px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #48a5dc;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.banner img {
+  width: 100%;
+  float: left;
+  margin-top:100px;
+}
+
+
+h3 {
+  font-size: 18px;
+}
+
+/* content */
+
+.callout {
+	padding: 15px 15px 20px 15px;
+	font-size: 24px;
+	//border-bottom: 1px solid #484848;
+	text-align: center;
+	max-width: 900px;
+	width: 80%;
+}
+
+#mission, #history, #goals {
+  float:left;
+  display:block;
+  width: 100%;
+  //border: 1px solid red;
+}
+
+#mission p, #history p, #goals p {
+	padding: 15px 15px 30px 15px;
+	max-width: 900px;
+	width: 80%;
+}
+
+#mission h1, #history h1, #goals h1 {
+	padding-top: 15px;
+	padding-left: 15px;
+	max-width: 900px;
+	width: 80%;
+	font-size: 28px;
+}
+
+.issue {
+	max-width: 900px;
+	width: 80%;
+	padding-left: 20px;
+}
+
+#history {
+	background-color: #f5b206;
+	border-top: 1px #f0f0f0 solid;
+
+}
+
+#mission {
+	background-color: #f0f0f0;
+	border-top: 1px #f0f0f0 solid;
+
+}
+
+/* footer */
+.footerBox {
+  float: right;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+

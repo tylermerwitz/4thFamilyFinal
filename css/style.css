@@ -12,8 +12,13 @@ font-family: 'Open Sans Condensed', sans-serif;
   width: auto;
   margin: 0px;
   padding: 0px;
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
 }
+=======
+ font-family: 'Open Sans', sans-serif;
+ color: #333333;
+>>>>>>> 3c6e4d153d97737a98c20d0b24f12de42ae55262
 
 h1{
   font-family: 'Open Sans Condensed', sans-serif;
