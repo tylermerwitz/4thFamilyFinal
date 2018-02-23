@@ -6,15 +6,14 @@
   width: auto;
   margin: 0px;
   padding: 0px;
-  color: #484848;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
 
 }
 h1 {
-  font-family: 'Open Sans', sans-serif;
   size: 36px;
 }
 p {
-    font-family: 'Open Sans', sans-serif;
     size: 22px;
 }
 
@@ -182,6 +181,15 @@ h3 {
 
 /* content */
 
+.callout {
+	padding: 15px 15px 20px 15px;
+	font-size: 30px;
+	border-bottom: 1px solid #484848;
+	text-align: center;
+	max-width: 900px;
+	width: 80%;
+}
+
 #mission, #history, #goals {
   float:left;
   display:block;
@@ -199,6 +207,12 @@ h3 {
 	text-align:center;
 	padding-top:15px;
 	font-size: 42px;
+}
+
+.issue {
+	max-width: 900px;
+	width: 80%;
+	padding-left: 20px;
 }
 
 #history {
