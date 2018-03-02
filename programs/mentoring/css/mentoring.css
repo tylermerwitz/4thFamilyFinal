@@ -1,19 +1,15 @@
-/* mission styles*/
-
-
 * {
   box-sizing: border-box;
   width: auto;
-  margin: 0px;
+  margin: 0;
   padding: 0px;
-  color: #333333;
   font-family: 'Open Sans', sans-serif;
+  color: #333333;
 
 }
-h1 {
-  size: 36px;
-}
+/* header */
 p {
+  
     size: 22px;
 }
 
@@ -81,10 +77,71 @@ a.donate {
 
 }
 
-/* nav */
 
-*{
-  margin: auto;
+/********** NAV **********
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
+	-webkit-overflow-scrolling: touch;
+	list-style: none;
+}
+
+
+*/
+html, body {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	margin: 0;
+	vertical-align: baseline;
+}
+body {
+	color: #000;
+	background-color: #fff;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix {
+	zoom: 1;
+}
+*:first-child+html .clearfix {
+	zoom: 1;
+}
+
+.clearfix {
+	max-width:1200px;
+	margin:auto;
+}
+
+/********** End RESET **********/
+
+
+
+html {
+	font-size: 100%;
+}
+
+body, a, a:hover {
+	color: #111;
+}
+
+span {
+	color:white;
 }
 
 header {
@@ -93,7 +150,7 @@ header {
 .logo {
   top: 0px;
   left: 0px;
-  padding-left: 15px;
+  padding-left: 25px;
   padding-top: 15px;
   height: 105px;
 }
@@ -104,69 +161,173 @@ header {
 	position:relative;
 }
 
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: 'Open Sans', sans-serif;
+a {
+	-webkit-transition: color .3s ease;
+	-moz-transition: color .3s ease;
+	-ms-transition: color .3s ease;
+	-o-transition: color .3s ease;
+	transition: color .3s ease;
+}
+a, a:hover {
+	text-decoration: none;
+}
+#nav {
+	width: 100%; /* 1000 */
+	background-color: #333;
+	font-family: 'Open Sans', sans-serif;
+
+}
+#nav > a {
+	display: none;
+}
+#nav li {
+	position: relative;
+}
+#nav li a {
+	color: #000;
+	display: block;
+}
+#nav li a:active {
+	background-color: black;  /*#c00 !important; */
+}
+#nav span:after {
+	width: 0;
+	height: 0;
+	border: 0.313em solid transparent; /* 5 */
+	border-bottom: none;
+	border-top-color: #efa585;
+	content: '';
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+	right: -0.313em; /* 5 */
+}
+/* first level */
+
+#nav > ul {
+	height: 3.75em; /* 60 */
+	background-color: #333;
+}
+#nav > ul > li {
+	width: 18%;
+	height: 100%;
+	float: left;
+}
+#nav > ul > li > a {
+	height: 100%;
+	font-size: 16px; /* 24 */
+	line-height: 60px; /* 60 (24) */
 	text-align: center;
-	opacity: .9;
+}
+#nav > ul > li:not( :last-child ) > a {
+	//border-right: 1px solid #cc470d;
+}
+#nav > ul > li:hover > a, #nav > ul:not( :hover ) > li.active > a {
+	background-color: #48a5dc; /*#cc470d */
+}
+/* second level */
+
+#nav li ul {
+	background-color: #f9f9f9; /*#cc470d */
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav li:hover ul {
+	display: block;
+	left: 0;
+	right: 0;
+}
+#nav li:not( :first-child ):hover ul {
+	left: -1px;
+}
+#nav li ul a {
+	font-size: 16px; /* 20 */
+	//border-top: 1px solid #e15a1f;
+	padding: 0.75em; /* 15 (20) */
+}
+#nav li ul li a:hover, #nav li ul:not( :hover ) li.active a {
+	background-color: #e2e2e2; /* #e15a1f */
+}
+ @media only screen and ( max-width: 62.5em ) /* 1000 */ {
+#nav {
+	width: 100%;
+	position: static;
+	margin: 0;
+}
+}
+ @media only screen and ( max-width: 768px ) /* 640 */ {
+html {
+	/*font-size: 75%;*/
+}
+#nav {
+	position: relative;
+	top: auto;
+	left: auto;
+}
+#nav > a {
+	width: 3.125em; /* 50 */
+	height: 3.125em; /* 50 */
+	text-align: left;
+	text-indent: -9999px;
+	background-color: #333; /*#e15a1f */
+	position: relative;
+}
+#nav > a:before, #nav > a:after {
+	position: absolute;
+	border: 2px solid #fff;
+	top: 35%;
+	left: 25%;
+	right: 25%;
+	content: '';
+}
+#nav > a:after {
+	top: 60%;
+}
+#nav:not( :target ) > a:first-of-type, #nav:target > a:last-of-type {
+	display: block;
+}
+/* first level */
+
+#nav > ul {
+	height: auto;
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+#nav:target > ul {
+	display: block;
+}
+#nav > ul > li {
+	width: 100%;
+	float: none;
+}
+#nav > ul > li > a {
+	height: auto;
+	text-align: left;
+	padding: 0 0.833em; /* 20 (24) */
+}
+#nav > ul > li:not( :last-child ) > a {
+	border-right: none;
+	border-bottom: 1px solid #cc470d;
+}
+/* second level */
+
+#nav li ul {
+	position: static;
+	padding: 1.25em; /* 20 */
+	padding-top: 0;
+}
 }
 
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.home {
+	color:white;
+	display: inline;
 }
 
-.dropdown {
-    //float: left;
-    //overflow: hidden;
-	display:inline-block;
-}
 
-.dropdown .dropbtn {
-    font-size: 18px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #48a5dc;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+/* content */
 
 .banner img {
   width: 100%;
@@ -179,15 +340,13 @@ h3 {
   font-size: 18px;
 }
 
-/* content */
-
 .callout {
 	padding: 15px 15px 20px 15px;
 	font-size: 24px;
 	//border-bottom: 1px solid #484848;
 	text-align: center;
-	max-width: 900px;
-	width: 80%;
+	/*max-width: 900px;*/
+	width: 100%;
 }
 
 #mission, #history, #goals {
@@ -199,16 +358,17 @@ h3 {
 
 #mission p, #history p, #goals p {
 	padding: 15px 15px 30px 15px;
-	max-width: 900px;
+	/*max-width: 900px;*/
 	width: 80%;
+	margin:auto;
 }
 
 #mission h1, #history h1, #goals h1 {
 	padding-top: 15px;
-	padding-left: 15px;
-	max-width: 900px;
-	width: 80%;
+	/*padding-left: 15px;*/
+	width: 100%;
 	font-size: 28px;
+	text-align:center;
 }
 
 .issue {
