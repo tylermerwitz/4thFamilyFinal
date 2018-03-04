@@ -5,13 +5,28 @@ body {
 }
 
 .container {
+<<<<<<< HEAD
     position: absolute;
     background-color: #48A5DC;
     z-index: -1;
     margin: auto;
     height: 100%;
 	width:100%;
+=======
+    background-color: #48A5DC;
+    z-index: -1;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 
+}
+>>>>>>> 214c7c0220faf76e5a6ef5d5065438c3c0faf65b
+
+.profile {
+    margin: auto;
+    width: 80%;
+    
 }
 .profile {
 	margin: auto;
