@@ -87,7 +87,7 @@ a.donate {
 	box-sizing: border-box;
 	-webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
 	-webkit-overflow-scrolling: touch;
-	/*list-style: none; */
+	list-style: none;
 }
 
 
@@ -182,7 +182,6 @@ a, a:hover {
 }
 #nav li {
 	position: relative;
-	list-style: none;
 }
 #nav li a {
 	color: #000;
@@ -328,9 +327,6 @@ html {
 }
 
 
-
-
-
 /* content */
 
 .banner img {
@@ -344,61 +340,84 @@ h3 {
   font-size: 18px;
 }
 
-/* content */
 
-.callout {
-	padding: 15px 15px 20px 15px;
-	font-size: 30px;
-	border-bottom: 1px solid #484848;
-	text-align: center;
-	max-width: 900px;
-	width: 80%;
-	margin:auto;
-}
-
-#mission, #history, #goals {
-  float:left;
+#mission, #goals {
+  /*float:left;*/
   display:block;
   width: 100%;
   //border: 1px solid red;
 }
 
-#mission p, #history p, #goals p {
+/*
+
+#goals p {
+	width:70%;
+	display:inline-block;
 	padding: 15px 15px 30px 15px;
-	max-width: 900px;
+}
+*/
+
+	
+#mission p {
+	padding: 15px 15px 30px 15px;
+	/*max-width: 900px;*/
 	width: 80%;
 	margin:auto;
 }
 
-#mission h1, #history h1, #goals h1 {
+#mission h1{
+	padding-top: 15px;
+	/*padding-left: 15px;*/
+	width: 100%;
+	font-size: 28px;
 	text-align:center;
-	padding-top:15px;
-	font-size: 42px;
 }
 
-#goals > h1 > .issue {
-	max-width: 900px;
-	width: 80%;
-	padding-left: 20px;
-}
 
-#history {
-	background-color: #f5b206;
-	border-top: 1px #f0f0f0 solid;
-
-}
-
-#goals {
+#mission {
 	background-color: #f0f0f0;
 	border-top: 1px #f0f0f0 solid;
 
 }
 
-.issue{
-	padding: 15px 10px 5px 15px;
-	max-width: 900px;
+.column {
+    float: left;
+    padding: 15px;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+
+.inline-image img {
+  width: 100%;
+}
+.row {
 	width: 80%;
 	margin:auto;
+}
+
+ @media only screen and ( max-width: 960px ) /* 640 */ {
+.left, .right, .row {
+	width:100%;
+}
+
+#mission p {
+	width: 100%;
+}
+
+ }
+ 
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* footer */

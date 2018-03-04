@@ -389,7 +389,7 @@ h3 {
 
 }
 
-.mentoringBox {
+#mentoringBox {
     float: right;
     width: 50%;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb9737+0,fbbc5d+45,fbbc5d+55,cb9737+100 */
@@ -401,11 +401,11 @@ h3 {
 ;
 }
 
-.mentoringBox p{
+#mentoringBox p{
 	padding:15px 15px 30px 15px;
 }
 
-.mentoringBox h1 {
+#mentoringBox h1 {
 	padding-left: 15px;
 	padding-top: 25px;
 
