@@ -621,7 +621,7 @@ a.videos-button{
 /* mobile queries */
 
  @media only screen and ( max-width: 768px ) {
-	 .stemBox, .mentoringBox {
+	 .stemBox, #mentoringBox {
 		 width: 100%;
 	 }
 	 
