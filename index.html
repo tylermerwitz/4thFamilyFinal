@@ -138,6 +138,7 @@ from sight when someone logs onto the page.  So at least I got one thing to work
                 </div>
                 <div class="information">
                     <div class="writeup">
+                        <span class="close">&times;</span>
                         <p1>Jahkeen Hoke</p1></br>
                         <p2>Co-Founder</p2>
                     </div>
@@ -176,18 +177,39 @@ from sight when someone logs onto the page.  So at least I got one thing to work
        <center>LOCATIONS: Albany, NY • Orlando, FL | CONTACT US: 518.123.4567 • 4thfamily@email.com</center>
     </div>
 
+<!--The script below targets the appropriate images and works as intended.
+I am unsure however as to why the commented out scripts that are targeted in
+the same fashion do not have the desired outcome-->
+
 <script>
+    $('.person').click(function()
+        { alert ("hi") });
+
+</script>
+
+<!--<script>
     $(document).ready(function(){
         $("div.visionaries-popups").hide();
     });
 
-</script>
-<script>
-$('#person_profile img').click(function(){
-    $('#dialog').dialog('open');
-     return false;
+</script>-->
+
+<!--<script>
+
+
+$(document).ready(function()
+{
+    $('.person').click(function()
+    {
+        $(".leader").fadeIn(300);
+    });
+
+    $(".close").click(function()
+    {
+        $(".leader").fadeOut(300);
+    });
 });
-</script>
+</script>-->
 
 </body>
 </html>
