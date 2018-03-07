@@ -1,0 +1,3 @@
+$(function() {
+    $(".visionaries-popups").hide
+});

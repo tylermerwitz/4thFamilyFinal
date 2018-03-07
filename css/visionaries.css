@@ -5,32 +5,19 @@ body {
 }
 
 .container {
-<<<<<<< HEAD
     position: absolute;
     background-color: #48A5DC;
     z-index: -1;
-    margin: auto;
     height: 100%;
 	width:100%;
-=======
-    background-color: #48A5DC;
-    z-index: -1;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-
-}
->>>>>>> 214c7c0220faf76e5a6ef5d5065438c3c0faf65b
-
-.profile {
-    margin: auto;
-    width: 80%;
+    padding-top: 2%;
     
 }
+
 .profile {
-	margin: auto;
-	width: 80%;
+    margin: auto;
+    width: 70%;
+    height: auto;
 }
 
 .headshot {
@@ -38,10 +25,11 @@ body {
     margin: 0px;
     padding: 0px;
     display: inline-block;
-    /*border-style: solid;
-    border-width: 1px;
-    border-color: orange;*/
+}
 
+.podium {
+    width: auto;
+    height: 350px;
 }
 
 #picture {
@@ -53,20 +41,66 @@ body {
 }
 
 .connect {
-    padding: ;
     background-color: #020216;
+    width: auto;
+    height: auto;
+    padding-top: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 1%;
 }
 
 ul {
     list-style: none;
+
 }
+
+li {
+    padding-bottom: 5%;
+}
+
+.btn{
+    width:90%;
+    position:relative;
+    height:50px;
+    border: 1px solid #4a4a4a;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4a4a4a;
+    text-decoration: none;
+    padding:5px 20px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    display:block;
+}
+
+.icon{
+    position:absolute;
+    left:18px;
+    top:9px;
+    font-size:30px;
+}
+/*a.donate {
+    border: 1px solid #4a4a4a;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4a4a4a;
+    text-decoration: none;
+    padding:5px 20px;
+    color: white;
+    border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	display:block;
+}*/
 
 .information {
     float: left;
     width: 60.5%;
-    /*border-style: solid;
-    border-width: 1px;
-    border-color: orange;*/
     background-color: white;
     margin: 0px;
     padding: 0px;
@@ -87,47 +121,19 @@ ul {
     padding-left: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
-
     vertical-align: middle;
     border-bottom: 2px solid #f3f5f6;
 
 }
 
-.social_links {
-    background-color: black;
-    width: 350px;
-    height: 200px;
-    margin: 0px;
-    padding: 0px;
-    /*border-style: solid;
-    border-width: 1px;
-    border-color: orange;*/
-}
-
 .bio {
     float: right;
-    padding: ;
     margin: 0px;
     padding: 0px;
+    height: 550px;
 }
 
 .scroll {
     padding-top: 15px;
     padding-right: 60px;
-}
-
-a.donate {
-    border: 1px solid #ffcc00;
-    cursor: pointer;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-    background-color: #ffcc00;
-    text-decoration: none;
-    padding:5px 20px;
-    color: #003087;
-    border-radius: 5px;
-	font-family: 'Open Sans', sans-serif;
-	display:block;
-
 }
