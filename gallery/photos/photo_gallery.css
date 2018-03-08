@@ -1,3 +1,77 @@
+.container {
+    margin: 0;
+    padding-bottom: 10%;
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-color: orange;
+    border-width: 1px;
+}
+
+.wrapper  {
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 70%;
+    height: 100%;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
+
+.event1 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+    margin-right: 2%;
+
+
+
+}
+
+.event2 {
+    float: left;
+    position: relative;
+    display: block;
+    width: 21%;
+    height: 22%;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+}
+
+.event3 {
+    float: left;
+    position: relative;
+    display: block;
+    width: 21%;
+    height: 22%;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    margin-right: 2%;
+}
+
+.event4 {
+    float: left;
+    position: relative;
+    display: block;
+    width: 21%;
+    height: 22%;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+/*Original design template css
 
 
 .upper_left {
