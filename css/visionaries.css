@@ -1,17 +1,12 @@
-body {
-    /*background-color: #48A5DC;
-    background-size: cover;
-    z-index: -1;*/
-}
+/* visionaries styles */ 
 
-.container {
-    position: absolute;
-    background-color: #48A5DC;
-    z-index: -1;
-    height: 100%;
-	width:100%;
-    padding-top: 2%;
-
+ #johns, #jahkeen, #johnd, #ana, #laquana {
+   display:none;
+   }
+   
+#johns p, #jahkeen p, #johnd p, #ana p,#laquana  p {
+    font-size: 14px;
+	padding: 10px;
 }
 
 .profile {
@@ -24,134 +19,27 @@ body {
     float: left;
     margin: 0px;
     padding: 0px;
+	width: 30%;
+	padding-right: 20px;
     display: inline-block;
 }
 
 .podium {
     width: auto;
-    height: 350px;
 }
 
 #picture {
     float: left;
     display: block;
-    width: 350px;
-    margin: 0px;
-    padding: 0px;
+    width: 100%;
 }
 
-.connect {
-    background-color: #020216;
-    width: auto;
-    height: auto;
-    padding-top: 15%;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-bottom: 1%;
-}
+/* end visionaries */
 
-ul {
-    list-style: none;
 
-}
 
-li {
-    padding-bottom: 5%;
-}
 
-.btn{
-    width:90%;
-    position:relative;
-    height:50px;
-    border: 1px solid #4a4a4a;
-    cursor: pointer;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-    background-color: #4a4a4a;
-    text-decoration: none;
-    padding:5px 20px;
-    color: white;
-    border-radius: 5px;
-    font-family: 'Open Sans', sans-serif;
-    display:block;
-}
 
-.icon{
-    position:absolute;
-    left:18px;
-    top:9px;
-    font-size:30px;
-}
-/*a.donate {
-    border: 1px solid #4a4a4a;
-    cursor: pointer;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-    background-color: #4a4a4a;
-    text-decoration: none;
-    padding:5px 20px;
-    color: white;
-    border-radius: 5px;
-	font-family: 'Open Sans', sans-serif;
-	display:block;
-}*/
 
-.information {
-    float: left;
-    width: 60.5%;
-    background-color: white;
-    margin: 0px;
-    padding: 0px;
-}
 
-.information p1 {
-    font-size: 34px;
 
-}
-
-.information p2 {
-    font-size: 20px;
-    line-height: 1.6;
-
-}
-
-.writeup {
-    padding-left: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    vertical-align: middle;
-    border-bottom: 2px solid #f3f5f6;
-
-}
-
-.close {
-    position: absolute;
-    top: 2%;
-    left: 79%;
-    background-color: #020216;
-   border: none;
-   color: white;
-   padding: 20px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   margin: 4px 2px;
-   cursor: pointer;
-border-radius: 50%;
-
-}
-
-.bio {
-    float: right;
-    margin: 0px;
-    padding: 0px;
-    height: 550px;
-}
-
-.scroll {
-    padding-top: 15px;
-    padding-right: 60px;
-}
