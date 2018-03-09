@@ -318,7 +318,7 @@ a, a:hover {
 }
 }
 
-.home {
+.home{
 	color:white;
 	display: inline;
 }
@@ -332,7 +332,7 @@ a, a:hover {
   margin-top:150px;
 }
 
-.mobile-banner img {
+.mobile-banner img, .mobile-media img {
 	display:none;
 }
 
@@ -370,7 +370,7 @@ h3 {
 }
 
 .box-wrapper {
-	width:80%;
+	width:85%;
 	margin: auto;
 
 }
@@ -643,16 +643,39 @@ a.videos-button{
 		 width: 100%;
 	 }
 
-	 	.banner img {
+	 	.banner img, .media img {
         display:none;
 }
+ 
 
-	.mobile-banner img {
+.mobile-banner img {
   width:100%;
   margin-top:150px;
   float:left;
   display: block;
 }
+
+.mobile-media img{
+  width:100%;
+  float:left;
+  display: block;
  }
+}
+ 
+ @media only screen and ( max-width: 700px ) {
+	 li .donate{
+		 display:none;
+	 }
+	 
+	.sponsors {
+		display: block;
+	}
+	
+	.person {
+		width: 33.3%;
+	}
+		
+}
+
 
  /* end mobile */
