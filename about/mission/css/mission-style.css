@@ -405,6 +405,26 @@ h3 {
 	margin:auto;
 }
 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	text-decoration: none;
+    color: #003087;
+	background-color:#ffcc00;
+	padding: 10px 35px;
+	text-align: center;
+	font-size: 18px;
+	display:block;
+	width: 200px;
+	margin: auto;
+}
+
+.center {
+	margin:auto;
+	width: 80%;
+}
+
 /* mobile styles */
 
  @media only screen and ( max-width: 970px ) {

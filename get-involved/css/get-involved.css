@@ -103,7 +103,7 @@ html, body {
 }
 body {
 	color: #000;
-	background-color: #fff;
+	 background-color: #48a5dc;
 }
 
 
@@ -255,7 +255,7 @@ a, a:hover {
 	margin: 0;
 }
 }
- @media only screen and ( max-width: 768px ) and (min-width: 300px) {
+ @media only screen and ( max-width: 768px ) /* 640 */ {
 
 #nav {
 	position: relative;
@@ -567,7 +567,7 @@ a.videos-button{
 
 
 .person {
-    width: 33.3%;
+    width: 20%;
 	display:inline-block;
 	float:left;
 	padding-bottom: 30px;
@@ -638,7 +638,7 @@ a.videos-button{
 
 /* mobile queries */
 
- @media only screen and ( max-width: 970px ) and (min-width: 300px)  {
+ @media only screen and ( max-width: 970px ) {
 	 .stemBox, #mentoringBox {
 		 width: 100%;
 	 }
@@ -676,60 +676,6 @@ a.videos-button{
 	}
 		
 }
-
-@media only screen and (max-width: 768px) and (min-width: 300px)  {
-.stemBox, #mentoringBox {
-		 width: 100%;
-		 font-size: 16px;
-}
-
-.stemBox h1, #mentoringBox h1 {
-		 text-align: center;
-	 }
-
-.banner img, .media img {
-        display:none;
-}
-
-#person_profile {
-	max-width: 300px;
-}
- 
-
-.mobile-banner img {
-  width:100%;
-  margin-top:150px;
-  float:left;
-  display: block;
-}
-
-
-.mobile-media img{
-  width:100%;
-  float:left;
-  display: block;
- }
- 
- .social_media {
-	 position: absolute;
-	 top: 65px;
-	 z-index: 8100;
-	 right:0;
-	 margin-right: 0;
-	 
- }
- 
-.welcomeBox h1 {
-	 font-size: 32px;
- }
- 
-.welcomeBox p {
-	 font-size: 16px;
-	 text-align: left;
- }
-
-}
-
 
 
  /* end mobile */
