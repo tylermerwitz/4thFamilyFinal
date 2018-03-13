@@ -42,7 +42,7 @@ h3 {
   float:left;
   display:block;
   width: 100%;
-  border: 1px solid red;
+
 }
 
 #mission p, #history p, #goals p{
@@ -94,9 +94,8 @@ h3 {
 
 .video iframe {
 	margin:auto;
-	width: 50%;
+	width: 100%;
 	max-width: 480px;
-	align:middle;
 }
 
 a.button {
