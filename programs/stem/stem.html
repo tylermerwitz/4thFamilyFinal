@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
   <title>S.T.E.M.</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/stem-styles.css">
+  <link rel="stylesheet" href="css/stem-styles.css"> 
+  <link rel="stylesheet" href="../../css/nav.css">  
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">  
   <script src="https://use.fontawesome.com/c30d6b056a.js"></script>
 </head>
 <body>
@@ -14,12 +16,17 @@
 <img id="fam" src="images/logo1.png">
 <div class="social_media">
         <ul class="icons">
-            <li><i class="fa fa-facebook-square fa-2x" style="color: #3b5988"; aria-hidden="true"></i></li>
-            <li><i class="fa fa-instagram fa-2x" style="color:#f77737"; aria-hidden="true"></i></li>
+            <li><a href="https://www.facebook.com/4thFamilyInc/"><i class="fa fa-facebook-square fa-2x" style="color: #3b5988"; aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/4thfamily/"<i class="fa fa-instagram fa-2x" style="color:#f77737"; aria-hidden="true"></i></a></li>
             <li><i class="fa fa-twitter-square fa-2x" style="color:#1da1f2"; aria-hidden="true"></i></li>
-            <li><i class="fa fa-linkedin-square fa-2x" style="color:#0077b5"; aria-hidden="true"></i></li>
-            <li><i class="fa fa-youtube-square fa-2x" style="color:#ff0000"; aria-hidden="true"></i></li>
-            <li><a class="donate" href="#">Make A Donation</a></li>
+           <li><a href="https://www.linkedin.com/company/4th-family-inc/"<i class="fa fa-linkedin-square fa-2x" style="color:#0077b5"; aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCL1nDLWjTvjUyl9rg9yyJTA"><i class="fa fa-youtube-square fa-2x" style="color:#ff0000"; aria-hidden="true"></i></a></li>
+            <li><form id="form_donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2KTGNBHRTN4K8">
+                    <input id="input_donate" type="image" src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG-Clipart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form><!--<a class="donate" href="#">Make A Donation</a>--></li>
         </ul>
     </div>
 </div>
@@ -27,29 +34,20 @@
 <nav id="nav" role="navigation"> <a href="#nav" title="Show navigation">Show navigation</a> <a href="#" title="Hide navigation">Hide navigation</a>
       <ul class="clearfix">
     <li><a href="../../index.html"><div class="home">HOME</div></a></li>
-    <li> <a href=""><span>PROGRAMS</span></a>
+    <li> <a href=""><span>PROGRAMMING</span></a>
           <ul>
-        <li><a href="stem.html">S.T.E.M.</a></li>
-        <li><a href="../../programs/mentoring/mentoring.html">Mentoring</a></li>
-        <li><a href="">Prison Ministry</a></li>
+        <li><a href="programs/stem/stem.html">S.T.E.M.</a></li>
+        <li><a href="../mentoring/mentoring.html">Mentoring</a></li> <!-- add Cherish the chance section -->
       </ul>
         </li>
     <li> <a href=""><span>ABOUT</span></a>
           <ul>
         <li><a href="../../about/mission/mission.html">Mission & History</a></li>
-        <li><a href="">Financials</a></li>
         <li><a href="../../index.html #mentoringBox">Visionaries</a></li>
       </ul>
         </li>
-	<li><a href=""><span>NEWS & EVENTS</span></a>
-          <ul>
-        <li><a href="">Subscribe to Newsletter</a></li>
-        <li><a href="">Happenings</a></li>
-        <li><a href="">Publication</a></li>
-		<li><a href="">Gallery</a></li>
-      </ul>
-        </li>
-	   <li><a href="index.html"><div class="home">GET INVOLVED</div></a></li>
+		 <li><a href="../../media/media.html"><div class="home">MEDIA</div></a></li>
+	   <li><a href="../../get-involved/form.html"><div class="home">CONTACT US</div></a></li>
   </ul>
 </nav>
 
@@ -57,7 +55,7 @@
 <div class="banner"><img src="images/stem_image.jpg"/>
 </div>
 <div id="mission">
-			<h1 style="text-align:center; font-size: 36px;">The Science of Athletic Performance </h1>
+			<h1 style="text-align:center;">The Science of Athletic Performance </h1>
 			<p>Responding to a clear education and employment gap of urban youth in the S.T.E.M. disciplines, the 4th Family co-founders came together to connected youth with the opportunity and motivation to seek further education and potential career in a S.T.E.M. field. The program is led by S.T.E.M. Director John Drazan, who has a Ph.D in biomedical engineering.  On site programs in capital region schools are given academic rigor by Drazan, and delivered by Hoke, Scott, and volunteers who know the power of overcoming hardship through S.T.E.M.</p>
 		
 
@@ -71,6 +69,11 @@
  <p style="margin-top:15px;">4th Family’s STEM work has been presented at national and international conferences at the both the national and international levels. The work of the 4th Family STEM program has been presented at technical and educational conferences around the world including, Orlando, Syracuse, San Francisco, Boston, Chicago, Las Vegas, and Milan, Italy.</p>
  </div>
 </div>
+
+<div class="center"><a href="../../get-involved/form.html" class="button">Get in Touch</a></div>
+ <div class="footerBox">
+       <center>LOCATION: Albany, NY • CONTACT US: 518.123.4567 • info@4thfamily.org</center>
+    </div>
 
 </body>
 </html>
