@@ -60,11 +60,13 @@ header {
 	padding-top:50px;
 }
 
-form#donate {
+form#form_donate {
     margin-top: -65px;
 }
 
-
+input#input_donate {
+    width:150px;
+}
 
 /*a.donate {
     border: 1px solid #ffcc00;
