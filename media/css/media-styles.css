@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  width: auto;
+  margin: 0;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+
+}
+
+
+.home {
+	color:white;
+	display: inline;
+}
+
+
+
+
+/* content */
+
+.banner img {
+  width: 100%;
+  float: left;
+  margin-top:150px;
+}
+
+
+h3 {
+  font-size: 18px;
+}
+
+.callout {
+	padding: 15px 15px 20px 15px;
+	font-size: 24px;
+	text-align: center;
+	/*max-width: 900px;*/
+	width: 100%;
+}
+
+#mission, #history, #goals {
+  float:left;
+  display:block;
+  width: 100%;
+  border: 1px solid red;
+}
+
+#mission p, #history p, #goals p{
+	padding: 15px 15px 30px 15px;
+	/*max-width: 900px;*/
+	width: 80%;
+	margin:auto;
+}
+
+#mission h1, #history h1, #goals h1 {
+	padding-top: 15px;
+	/*padding-left: 15px;*/
+	width: 100%;
+	font-size: 28px;
+	text-align:center;
+}
+
+#goals > h1 > .issue {
+	max-width: 900px;
+	width: 80%;
+	padding-left: 20px;
+}
+
+.issue {
+	padding-left: 15px;
+	max-width: 900px;
+	width: 80%;
+	margin:auto;
+	list-style-type: circle;
+}
+
+
+#history {
+	background-color: #f5b206;
+	border-top: 1px #f0f0f0 solid;
+
+}
+
+#mission, #charity {
+	background-color: #f0f0f0;
+	border-top: 1px #f0f0f0 solid;
+
+}
+
+.video {
+	float: left;
+	width: 100%;
+}
+
+.video iframe {
+	margin:auto;
+	width: 50%;
+	max-width: 480px;
+	align:middle;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	text-decoration: none;
+    color: #003087;
+	background-color:#ffcc00;
+	padding: 10px 35px;
+	text-align: center;
+	font-size: 18px;
+	display:block;
+	width: 200px;
+	margin: auto;
+}
+
+.center {
+	margin:auto;
+	width: 80%;
+	padding: 35px;
+	margin-top: -25px;
+}
+
+ @media only screen and ( max-width: 700px ) and (min-width:300px){
+	 li .donate{
+		 display:none;
+	 }
+	 
+	 #mission p, #history p, #goals p {
+	width: 90%;
+	
+ }
+  .issue {
+	  width:90%;
+	  
+  }
+
+ }
+
+/* footer */
+.footerBox {
+  float: right;
+  width: 100%;
+  background-color:#333333;
+  color: white;
+}
+
+.footerBox center {
+	color:white;
+	width: 80%;
+	margin:auto;
+	padding: 25px;
+}
+
