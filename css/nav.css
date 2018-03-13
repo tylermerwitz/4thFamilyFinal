@@ -51,12 +51,15 @@ header {
 	padding-top:50px;
 }
 
+
 form#form_donate {
-    margin-top: -65px;
-}
+    float:right;
+	margin-top:40px;
+} 
 
 input#input_donate {
     width:150px;
+	float:right;
 }
 
 /*a.donate {
@@ -327,24 +330,29 @@ a, a:hover {
 	 top: 65px;
 	 z-index: 8100;
 	 right:0;
-	 margin-right: -25px;
+	 margin-right: 0px;
 	 
  }
  
 form#form_donate {
-    margin-top: -65px;
+    float:right;
 }
 
 input#input_donate {
     width:100px;
 	float:right;
-	margin-top: -25px;
-	margin-left: -20px;
+	/*margin-top: -25px; */
+	/*margin-left: -20px;*/
 }
 
 .icons {
-	width: 60%;
-	display:block;
+	/*width: 90%;*/
+	display:inline-block;
 	float:right;
+	/*margin-right:5px; */
+}
+
+.icons li { 
+/*float:right; */
 }
 }
