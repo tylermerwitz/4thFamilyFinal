@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello!</title>
+    <title>Photo Gallery</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="photo_gallery.css">
+    <link rel="stylesheet" href="../../css/nav.css">
+    <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="jquery.fancybox.css">
     <link rel="stylesheet" href="jquery.fancybox.min.css">
-    <script src="../../jquery-3.3.1.min.js"></script>
-    <script src="jquery.fancybox.js"></script>
-    <script src="jquery.fancybox.min.js"></script>
+    <!--<script src="../../jquery-3.3.1.min.js"></script>-->
+    <!--<script src="jquery.fancybox.js"></script>-->
+    <!--<script src="jquery.fancybox.min.js"></script>-->
     <script type="text/javascript">
    $("document").ready(function () {
  	$("a.button").fancybox();
@@ -21,165 +23,85 @@
   </head>
   <body>
     <header>
-      <img class="logo" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/facebook/111/crystal-ball_1f52e.png" alt="heart" />
-      <h1 class="heading">Grid into the future</h1>
+        <div class="mast">
+        <div class="logo">
+        <img id="fam" src="../../images/logo1.png">
+        <form id="form_donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="2KTGNBHRTN4K8">
+                            <input id="input_donate" type="image" src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG-Clipart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        </form>
+        <div class="social_media">
+                <ul class="icons">
+                    <li><a href="https://www.facebook.com/4thFamilyInc/"><i class="fa fa-facebook-square fa-2x" style="color: #3b5988"; aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/4thfamily/"<i class="fa fa-instagram fa-2x" style="color:#f77737"; aria-hidden="true"></i></a></li>
+                    <li><i class="fa fa-twitter-square fa-2x" style="color:#1da1f2"; aria-hidden="true"></i></li>
+                    <li><a href="https://www.linkedin.com/company/4th-family-inc/"<i class="fa fa-linkedin-square fa-2x" style="color:#0077b5"; aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCL1nDLWjTvjUyl9rg9yyJTA"><i class="fa fa-youtube-square fa-2x" style="color:#ff0000"; aria-hidden="true"></i></a></li>
+                   <!-- <li><form id="form_donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="2KTGNBHRTN4K8">
+                            <input id="input_donate" type="image" src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG-Clipart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        </form><!--<a class="donate" href="#">Make A Donation</a></li>-->
+                </ul>
+            </div>
+        </div>
+        </div>
+        <nav id="nav" role="navigation"> <a href="#nav" title="Show navigation">Show navigation</a> <a href="#" title="Hide navigation">Hide navigation</a>
+              <ul class="clearfix">
+            <li><a href="index.html"><div class="home">HOME</div></a></li>
+            <li><a href="" class="noclick"><span>PROGRAMMING</span></a>
+                  <ul>
+                <li><a href="programs/stem/stem.html">S.T.E.M.</a></li>
+                <li><a href="programs/mentoring/mentoring.html">Mentoring</a></li> <!-- add Cherish the chance section -->
+              </ul>
+                </li>
+            <li> <a href="" class="noclick"><span>ABOUT</span></a>
+                  <ul>
+                <li><a href="about/mission/mission.html">Mission & History</a></li>
+                <li><a href="#mentoringBox">Visionaries</a></li>
+              </ul>
+                </li>
+        		 <li><a href="media/media.html"><div class="home">MEDIA</div></a></li>
+        	   <li><a href="get-involved/form.html"><div class="home">CONTACT US</div></a></li>
+          </ul>
+        </nav>
     </header>
-    <main>
-        <a class="button" href="#2018_mlk">
+    <main class="main">
+        <a class="button" href="../../gallery/albums/2018_mlk/2018_mlk.html">
             <section class="leading">
                 <p class="leading-bigtext">2018 MLK</p>
                 <p class="leading-text">Celebrating the legacy of Dr. Martin Luther King at the State Plaza in Albany, NY.</p>
             </section>
-    </a>
+        </a>
       <section class="cards">
         <article>
-          <img class="article-img" src="http://placekitten.com/305/205" alt=" " />
+            <a href="../../gallery/albums/2018_ACC_SOS/acc_sos.html">
+                <img class="article-img" src="../../gallery/albums/2018_ACC_SOS/acc_1.jpg" alt=" " />
+            </a>
           <h1 class="article-title">
-            Title of article
+            2018 Albany Community Charter SOS
           </h1>
         </article>
         <article>
-          <img class="article-img" src="http://placekitten.com/320/220" alt=" " />
+            <a href="../../gallery/albums/2018_Black_Family_Tech_Day/bftd.html">
+          <img class="article-img" src="../../gallery/albums/2018_Black_Family_Tech_Day/bftd_1.jpg" alt=" " />
+      </a>
+      </a>
           <h1 class="article-title">
-            Title of article
+            2018 Black Family Tech Day
           </h1>
         </article>
         <article>
-          <img class="article-img" src="http://placekitten.com/330/240" alt=" " />
+            <a href="../../gallery/albums/2017_MIT_Sloan/mit_sloan.html">
+          <img class="article-img" src="../../gallery/albums/2017_MIT_Sloan/mit_1.jpeg" alt=" " />
+      </a>
           <h1 class="article-title">
-            Title of article
+            2017 ESPN MIT-Sloan Win!
           </h1>
         </article>
-        <article>
-          <img class="article-img" src="http://placekitten.com/280/250" alt=" " />
-          <h1 class="article-title">
-            Title of article
-          </h1>
-        </article>
-        <article>
-          <img class="article-img" src="http://placekitten.com/310/210" alt=" " />
-          <h1 class="article-title">
-            Title of article
-          </h1>
-        </article>
-        <article>
-          <img class="article-img" src="http://placekitten.com/430/240" alt=" " />
-          <h1 class="article-title">
-            Title of article
-          </h1>
-        </article>
+
       </section>
     </main>
   </body>
-</html>
-<!--<html>
-<head>
-<meta charset="utf-8">
-  <title>4th Family - STEM Through Sports</title>
-  <link rel="stylesheet" href="photo_gallery.css">
-  <script src="https://use.fontawesome.com/c30d6b056a.js"></script>
-</head>
-
-<body>
-    <div class="container">
-        <div class="wrapper">
-            <div class="split">
-                <div class="event1">
-
-                </div>
-                <div class="event2">
-
-                </div>
-                <div class="event2">
-
-                </div>
-                <div class="event3">
-
-                </div>
-                <div class="event3">
-
-                </div>
-            </div>
-            <div class="split">
-            <div class="split2">
-                <div class="event4">
-
-                </div>
-                <div class="event4">
-
-                </div>
-                <div class="event4">
-
-                </div>
-                <div class="event4">
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-<!--    <div>
-        <div class="upper_left">
-            <div class="lastevent_image">
-                <img id="main_le" src="sunflower.jpg" alt="">
-            </div>
-            <div class="text">
-                <p>Meet The GOAT!<br>
-                February 9, 2017<br>
-                </p>
-            </div>
-            <div class="lastevent_image">
-                <img id="main_le" src="snowlines.jpg" alt="">
-            </div>
-            <div class="text">
-                <p>UAlbany Basketball<br>
-                February 10, 2017<br>
-                </p>
-            </div>
-            <div class="lastevent_image">
-                <img id="main_le" src="italy.jpg" alt="">
-            </div>
-            <div class="text">
-                <p>Kids Sports<br>
-                February 11, 2017<br>
-                </p>
-            </div>
-            <div class="lastevent_image">
-                <img id="main_le" src="honeybee.jpg" alt="">
-            </div>
-            <div class="text">
-                <p>STEM at SUNY<br>
-                February 12, 2017<br>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="mre_event">
-        <div class="mre_image">
-            <img id="main_mre" src="flowerant.jpg" alt="">
-        </div>
-        <div class="mre_text">
-            <p>Albany High School February 11, 2017</p>
-        </div>
-    </div>
-    <div class="scroll">
-        <div class="event_scroll">
-            <img id="indiv" src="monarch.jpg" alt="">
-            <img id="indiv" src="beetrees.jpg" alt="">
-            <img id="indiv" src="humingbirdmoth.jpg" alt="">
-            <img id="indiv" src="flower.jpg" alt="">
-            <img id="indiv" src="fly.jpg" alt="">
-            <img id="indiv" src="gorge.jpg" alt="">
-
-
-    </div>-->
-
-</body>
-
 </html>

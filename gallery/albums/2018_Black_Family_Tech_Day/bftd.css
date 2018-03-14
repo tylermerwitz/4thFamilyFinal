@@ -1,0 +1,14 @@
+.outside {
+    position: absolute;
+    float: left;
+    margin: 0px;
+    padding-top: 12%;
+    padding-left: 15%;
+    background-color: #48a5dc;
+}
+
+
+.responsive {
+    display: inline-block;
+    margin-left: ;
+}

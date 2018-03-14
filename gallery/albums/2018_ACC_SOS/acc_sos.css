@@ -1,0 +1,15 @@
+.outside {
+
+
+    margin: 0px;
+    padding-top:12%;
+    padding-left:10%;
+    background-color: #48a5dc;
+}
+
+
+.responsive {
+    display: inline-block;
+    margin: 0;
+
+}
