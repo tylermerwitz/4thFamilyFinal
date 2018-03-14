@@ -359,7 +359,7 @@ a.button-home {
 	 	.banner img, .media img {
         display:none;
 }
- 
+
 
 .mobile-banner img {
   width:100%;
@@ -374,20 +374,20 @@ a.button-home {
   display: block;
  }
 }
- 
+
  @media only screen and ( max-width: 700px ) and (min-width: 300px) {
 	 li .donate{
 		 display:none;
 	 }
-	 
+
 	.sponsors {
 		padding: 25px;
 	}
-	
+
 	.person {
 		width: 33.3%;
 	}
-		
+
 }
 
 @media only screen and (max-width: 768px) and (min-width: 300px)  {
@@ -407,7 +407,7 @@ a.button-home {
 #person_profile {
 	max-width: 300px;
 }
- 
+
 
 .mobile-banner img {
   width:100%;
@@ -422,17 +422,17 @@ a.button-home {
   float:left;
   display: block;
  }
- 
- 
+
+
 .welcomeBox h1 {
 	 font-size: 32px;
  }
- 
+
 .welcomeBox p {
 	 font-size: 16px;
 	 text-align: left;
  }
- 
+
  .organizers {
 	 padding:0;
  }
