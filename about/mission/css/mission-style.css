@@ -22,7 +22,12 @@
   margin-top:150px;
 }
 
-.mobile-banner img {
+.banner-media img {
+  width: 100%;
+  float: left;
+}
+
+.mobile-banner img, .mobile-media img {
 	display:none;
 }
 
@@ -52,7 +57,7 @@ h3 {
 }
 
 #mission p, #history p, #goals p {
-	padding: 15px 15px 30px 15px;
+	padding: 15px 0 15px;
 	max-width: 900px;
 	width: 80%;
 	margin:auto;
@@ -83,7 +88,7 @@ h3 {
 }
 
 .issue{
-	padding: 15px 10px 5px 15px;
+	padding: 15px 0 15px;
 	max-width: 900px;
 	width: 80%;
 	margin:auto;
@@ -116,12 +121,18 @@ a.button {
 
  @media only screen and ( max-width: 970px ) and (min-width:300px) {
 
-	.banner img {
+	.banner img, .banner-media img {
      display:none;
 }
 	.mobile-banner img {
   width:100%;
   margin-top:150px;
+  float:left;
+  display: block;
+}
+
+.mobile-media img {
+  width:100%;
   float:left;
   display: block;
 }
@@ -135,7 +146,7 @@ a.button {
 }
 
 #mission p, #history p, #goals p, .issue {
-	width: 95%;
+	width: 90%;
 }
 
  }
@@ -146,9 +157,12 @@ a.button {
 	 }
  }
  
+ 
  /* end mobile styles */
 
 /* footer */
+
+
 .footerBox {
   float: right;
   width: 100%;

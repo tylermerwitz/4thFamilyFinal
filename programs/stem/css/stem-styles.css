@@ -21,7 +21,9 @@
   float: left;
   margin-top:150px;
 }
-
+.mobile-media img {
+	display:none;
+}
 
 h3 {
   font-size: 18px;
@@ -121,6 +123,16 @@ a.button {
 }
 #mission h1 {
 	font-size: 26px;
+}
+.banner img {
+     display:none;
+}
+
+.mobile-media img {
+width:100%;
+  margin-top:150px;
+  float:left;
+  display: block;
 }
  }
  
