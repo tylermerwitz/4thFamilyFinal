@@ -1,68 +1,151 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-  <title>4th Family - STEM Through Sports</title>
+  <title>Visionaries</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="../../css/visionaries.css">
+  <link rel="stylesheet" href="css/mission-style.css">
+  <script src="../../jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="../../jquery.fancybox.js"></script>
+	<script type="text/javascript" src="../../function.js"></script>
   <script src="https://use.fontawesome.com/c30d6b056a.js"></script>
+  <link rel="stylesheet" href="../../css/nav.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="container">
-        <div class="profile">
-            <div class="headshot">
-                <div class="podium">
-                    <img id="picture" src="../../images/jahkeen_hoke.jpg" alt="jahkeen_headshot">
-                </div>
-                <div class="connect">
-                    <ul>
-                        <li><button class="btn btn-primary"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</button></li>
-                        <li><button class="btn btn-primary"><i class="fa fa-twitter-square" aria-hidden="true"></i>Twitter</button></li>
-                        <li><button class="btn btn-primary"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</button></li>
-                        <li><button class="btn btn-primary"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</button></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="information">
-                <div class="writeup">
-                    <span class="close">&times;</span>
-                    <p1>Jahkeen Hoke</p1></br>
-                    <p2>Co-Founder</p2>                    
-                </div>
-                <div class="bio">
-                    <div class="scroll" style="height:530px;width:500px;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-                    <p>Many words flood my mind and produce thoughts that will entice many ingenious but radical ideas as to how I will do business to help people. As we embark on this journey to uplift communities, inspire families, and develop hope and passion, we at 4th Family, believe that you will be an asset to our organization in all the many facets that we operate in.</p>
-                    <p>Born in Albany New York, I grew up in the South End, spending much of my childhood at my grandparent’s house, which sits on the corner of Broad and 3rd Street. Throughout the years, I have had first-hand experience of drugs, crime, gangs, youth pregnancy, and domestic abuse. Growing up in such an environment, it is near impossible to succeed without positive role models to follow or outlets to learn, develop, and grow in. My outlet was sports. I kept busy in the winter with bowling, spring and summer with baseball and basketball, and fall with football. As a teen, I enjoyed the Teen Centers at Hoffman Park, Hackett Middle school, and the YMCA, these places no longer exist or do not operate in the same capacity. Later on, I then barely graduated from Albany High School with a “C” average.</p>
-                    <p>I then attended Mount Ida College where I began to take education serious and realized my potential. After obtaining a 3.93 GPA, I then transferred to Morehouse College in Atlanta, GA, where I gained extensive knowledge, experiences, and most importantly the passion to help people. I was apart and started organizations while in attendance. I tutored and mentored many younger students, but my heart was in Albany and knew I could not give 100% to another city when knowing that my hometown was in crisis and needed help just as anywhere else. After my four years at Morehouse College, I graduated Cum Laude along with a position at KeyBank as a Management Associate in Albany.</p>
-                    <p>With all roads to victory, I knew it was time to make a difference in my community. Stemming from a Social Entrepreneurship class I much enjoyed at Morehouse College, I birthed an idea that would radically change the social environment in my community, and then bring it to others in Upstate New York, and eventually spread throughout the nation. After partnering with my old middle school classmate (John Scott) we have been working diligently to see our Vision come to fruition.</p>
-                    <p>It will be a pleasure to have you join us on this journey to change the world! I look forward to seeing you hand-in-hand with us at the finish line….“It Takes a Community”!</p>
-                </div>
-            </div>
-        </div>
+<header>
+<div class="mast">
+<div class="logo">
+<img id="fam" src="images/logo1.png">
+<form id="form_donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2KTGNBHRTN4K8">
+                    <input id="input_donate" type="image" src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG-Clipart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                </form>
+<div class="social_media">
+        <ul class="icons">
+            <li><a href="https://www.facebook.com/4thFamilyInc/"><i class="fa fa-facebook-square fa-2x" style="color: #3b5988"; aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/4thfamily/"<i class="fa fa-instagram fa-2x" style="color:#f77737"; aria-hidden="true"></i></a></li>
+            <li><i class="fa fa-twitter-square fa-2x" style="color:#1da1f2"; aria-hidden="true"></i></li>
+            <li><a href="https://www.linkedin.com/company/4th-family-inc/"<i class="fa fa-linkedin-square fa-2x" style="color:#0077b5"; aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCL1nDLWjTvjUyl9rg9yyJTA"><i class="fa fa-youtube-square fa-2x" style="color:#ff0000"; aria-hidden="true"></i></a></li>
+           <!-- <li><form id="form_donate" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2KTGNBHRTN4K8">
+                    <input id="input_donate" type="image" src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG-Clipart.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                </form><!--<a class="donate" href="#">Make A Donation</a></li>-->
+        </ul>
     </div>
 </div>
 </div>
+<nav id="nav" role="navigation"> <a href="#nav" title="Show navigation">Show navigation</a> <a href="#" title="Hide navigation">Hide navigation</a>
+      <ul class="clearfix">
+    <li><a href="../../index.html"><div class="home">HOME</div></a></li>
+    <li><a href="" class="noclick"><span>PROGRAMMING</span></a>
+          <ul>
+        <li><a href="../../programs/stem/stem.html">S.T.E.M.</a></li>
+        <li><a href="../../programs/mentoring/mentoring.html">Mentoring</a></li> <!-- add Cherish the chance section -->
+      </ul>
+        </li>
+    <li><a href="" class="noclick"><span>ABOUT</span></a>
+          <ul>
+        <li><a href="../mission.html">Mission & History</a></li>
+        <li><a href="visionaries.html">Visionaries</a></li>
+      </ul>
+        </li>
+		 <li><a href="../../media/media.html"><div class="home">MEDIA</div></a></li>
+	   <li><a href="../../get-involved/form.html"><div class="home">CONTACT US</div></a></li>
+  </ul>
+</nav>
+
+</header>
+<!--<div class="banner"><img src="images/group_photoV4.jpg"/> 
+</div>
+<div class="mobile-banner"><img src="images/group_pictureV4_mobile.jpg"/>
+</div> -->
+<div class="organizers">
+        <div id="title_org"><h1>VISIONARIES</h1></div>
+		<div class="sponsors">
+        <div class="person">
+            <a class="button" href="#johns"><img id="person_profile" src="../../images/homepage/john_scott.png"></a>
+            <p>John Scott</p>
+        </div>
+        <div class="person">
+                <a class="button" href="#jahkeen"><img id="person_profile" src="../../images/homepage/jahkeen_hoke.png"></a>
+                <p>Jahkeen Hoke</p>
+        </div>
+        <div class="person">
+                <a class="button" href="#johnd"><img id="person_profile" src="../../images/homepage/john_drazan.png"></a>
+                <p>John Drazan</p>
+        </div>
+        <!--<div class="person">
+                <a class="button" href="#ana"><img id="person_profile" src="images/homepage/ana_shaello.png"></a>
+                <p>Ana Shaello</p>
+        </div>
+        <div class="person">
+                <a class="button" href="#laquana"><img id="person_profile" src="images/homepage/laquana_cooke.png"></a>
+                <p>Laquana Cooke</p>
+        </div>
+		</div> -->
+</div>
+<div id="johns">
+  <div class="headshot">
+          <div class="podium">
+          <img id="picture" src="../../images/john_scott.jpg" alt="jahkeen_headshot">
+          </div> 
+  </div>
+        <h1>John Scott</h1>
+        <h2>Co-Founder</h2>                    
+ <p>My journey began in October of 1988. I am the son of Gazell and Dorothea Scott. My father comes from a very large family originally from a small town in Florida, and my mother hails from Harlem, New York. Both of my parents had it extremely rough growing up, and they instilled in me at a very tender age the importance of hard work, and taking accountability for my actions. Even though they were not presented with many of the resources and opportunities that I have been blessed with, they worked earnestly to provide me with a better life than they had. So I give them all the credit for all the success that I have endured thus far. I have always had a burden in my heart to help others. 
+ </p>
+ <p>At the young age of 15, I was the director of my own basketball camp at the Albany YMCA, where we had an enrichment program, took field trips, and the camp was free to all those who were Albany Housing recipients. I conducted this camp for several years and this is where I discovered my desire for giving back to my community.As a child I attended the Albany School of Humanities, and later Hackett Middle School, where I excelled academically taking all honors courses.</p>
+<p> Due to my success in the classroom, as well as on the basketball court, I was accepted to Albany Academy, where I really began to come into my own. During my four-year tenure at Albany Academy, I led community service projects in Albany, started leadership programs, and accumulated numerous accolades through basketball and football, while also participating for race relations. I graduated in 2006 in a class where I was the only minority, and went on to receive a scholarship to play basketball at Iona College. However, after the firing of my coach, and suffering a back injury some years later, I decided in the summer of 2010 to move back home to be closer to my family. That is when the real work started.
+</p>
+
+<p>As I look around my neighborhood, I see that we are in dire need of more positive role-models. Our streets are filled with crime, drugs, and poverty. Half of the people that I grew up with 
+are either dead or in prison. My desire to stand up and make a difference is at an all-time high. </p>
+
+<p>In the summer of 2011, one of my players was senselessly murdered at a house party. He was only 15 years old and the friend whose house I dropped him off at was the same friend who he went to the party with who later left him after he had been shot. Here was someone with so much potential, whose life was taken for no reason. Having to tell his mother why her son was dead was the hardest thing I have ever done, and it is that pain that is the motivation that drives me every day. Shortly after his funeral, I decided to make it my life’s mission to do my part in changing my community.</p>
+	
+<p>4th Family is not your average non-profit organization. It is a movement, a mind-set, a life-style. This organization is comprised of a group of educated young men and woman who refuse to sit back and watch an entire community deteriorate. Please join us in this fight in whatever capacity you can contribute.</p>
+</div>
+<div id="jahkeen">
+  <div class="headshot">
+          <div class="podium">
+          <img id="picture" src="../../images/jahkeen_hoke.jpg" alt="jahkeen_headshot">
+          </div> 
+  </div>
+        <h1>Jahkeen Hoke</h1>
+        <h2>Co-Founder</h2>                    
+    
+	<p>Many words flood my mind and produce thoughts that will entice many ingenious but radical ideas as to how I will do business to help people. As we embark on this journey to uplift communities, inspire families, and develop hope and passion, we at 4th Family, believe that you will be an asset to our organization in all the many facets that we operate in.</p>
+    <p>Born in Albany New York, I grew up in the South End, spending much of my childhood at my grandparent’s house, which sits on the corner of Broad and 3rd Street. Throughout the years, I have had first-hand experience of drugs, crime, gangs, youth pregnancy, and domestic abuse. Growing up in such an environment, it is near impossible to succeed without positive role models to follow or outlets to learn, develop, and grow in. My outlet was sports. I kept busy in the winter with bowling, spring and summer with baseball and basketball, and fall with football. As a teen, I enjoyed the Teen Centers at Hoffman Park, Hackett Middle school, and the YMCA, these places no longer exist or do not operate in the same capacity. Later on, I then barely graduated from Albany High School with a “C” average.</p>
+    <p>I then attended Mount Ida College where I began to take education serious and realized my potential. After obtaining a 3.93 GPA, I then transferred to Morehouse College in Atlanta, GA, where I gained extensive knowledge, experiences, and most importantly the passion to help people. I was apart and started organizations while in attendance. I tutored and mentored many younger students, but my heart was in Albany and knew I could not give 100% to another city when knowing that my hometown was in crisis and needed help just as anywhere else. After my four years at Morehouse College, I graduated Cum Laude along with a position at KeyBank as a Management Associate in Albany.</p>
+	<p>With all roads to victory, I knew it was time to make a difference in my community. Stemming from a Social Entrepreneurship class I much enjoyed at Morehouse College, I birthed an idea that would radically change the social environment in my community, and then bring it to others in Upstate New York, and eventually spread throughout the nation. After partnering with my old middle school classmate (John Scott) we have been working diligently to see our Vision come to fruition.</p>
+    <p>It will be a pleasure to have you join us on this journey to change the world! I look forward to seeing you hand-in-hand with us at the finish line….“It Takes a Community”!</p>
+</div>
+<div id="johnd">
+  <div class="headshot">
+          <div class="podium">
+          <img id="picture" src="../../images/john_drazan.jpg" alt="johnd_headshot">
+          </div> 
+  </div>
+        <h1>John Drazan</h1>
+        <h2>STEM Director</h2>                    
+    <p>John is pursuing his PhD in Biomedical Engineering at the Rensselaer Polytechnic Institute. He recently received an NSF GK12 fellowship through the 3Helix program as a result of his effective STEM programming for a K12 audience. His research at RPI involves measuring the loads in the lumbar spine using passive wireless sensors with the goal of identifying the biomechanical and muscular causes of degenerative disc disease. Before he started at RPI John received a bachelors degree in Physics at SUNY Geneseo where he was a 4 year varsity basketball player.John has been the STEM director at 4th Family since Fall 2012. John combines his knowledge and love for sports and science to develop programs where students can discover the application of scientific concepts in real life by exploring how the human body performs in athletics.</p>
+</div>
+<div id="ana">
+  <div class="headshot">
+          <div class="podium">
+          <img id="picture" src="images/ana_shaello.png" alt="ana_headshot">
+          </div> 
+  </div>
+	<div class="center"><a href="../../get-involved/form.html" class="button">Get In Touch</a></div>
+
+ </div>
+ 
+   <div class="footerBox">
+       <center>LOCATION: Albany, NY • CONTACT US: 518.123.4567 • info@4thfamily.org</center>
+    </div>
 </body>
 </html>
-        <!--<aside class="headshot">
-            <div class="headshot">
-            <img id="picture" src="../../images/jahkeen_hoke.jpg" alt="jahkeen_headshot">
-            </div>
-            <div class="connect">
-
-            </div>
-        </aside>
-        <div class="background">
-                <div class="information">
-                <div class="writeup">
-                    <p1>Jahkeen Hoke</p1></br>
-                    <p2>Co-Founder</p2>
-                </div>
-            </div>
-            <div class="social_links">
-
-            </div>
-            <div class="bio">
-
-            </div>
-        </div>-->
