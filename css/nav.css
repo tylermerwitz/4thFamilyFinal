@@ -358,7 +358,7 @@ input#input_donate {
 	/*width: 90%;*/
 	display:inline-block;
 	float:right;
-	/*margin-right:5px; */
+	margin-right:5px; 
 }
 
 .icons li { 

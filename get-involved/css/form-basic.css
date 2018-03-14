@@ -1,5 +1,8 @@
 .main-content {
-	background-color: #48a5dc;
+	/*background-color: #48a5dc; */
+	background-image: url('../../images/group_picture_cover.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form-basic{
@@ -159,5 +162,6 @@
     .form-basic button{
         margin: 0;
     }
+
 
 }
