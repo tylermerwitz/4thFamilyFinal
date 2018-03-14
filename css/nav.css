@@ -314,6 +314,15 @@ a, a:hover {
 	border-bottom: 1px solid #cc470d;
 }
 /* second level */
+#nav li:hover ul {
+display: none;
+}
+
+#nav li.active:hover ul, #nav li:active ul  {
+display: block;
+
+}
+
 
 #nav li ul {
 	position: static;
